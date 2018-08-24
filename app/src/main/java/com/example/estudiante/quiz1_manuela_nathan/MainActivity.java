@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+    // Manuela Epe y Nathan Manuel
+
 public class MainActivity extends AppCompatActivity {
 
     TextView tvIntroducir;
