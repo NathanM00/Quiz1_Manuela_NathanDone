@@ -6,6 +6,8 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
+    <!-- Manuela Epe y Nathan Manuel -->
+
     <ImageView
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
