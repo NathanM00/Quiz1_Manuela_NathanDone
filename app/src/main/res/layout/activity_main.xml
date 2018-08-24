@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#600d9f"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al sistema de login a otro nivel"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#FFFF"
+        android:id="@+id/tv_introducir"
+        />
+
+    <EditText
+        android:id="@+id/et_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bordes_rendondeados"
+        android:hint="Usuario"
+        android:textColorHint="#7c7c7c"
+        android:padding="10dp"
+        android:textSize="15sp"
+
+        />
+
+    <EditText
+        android:id="@+id/et_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bordes_rendondeados"
+        android:hint="Contraseña"
+        android:textColorHint="#7c7c7c"
+        android:padding="10dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#FFFF"
+        android:id="@+id/tv_error"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INGRESAR"
+        android:id="@+id/btn_ingresar"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:background="@drawable/bordes_rendondeados"
+        android:textColor="#212121"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#600d9f"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:text="Hola ADMINISTRADOR"
+        android:layout_margin="30dp"
+        android:textColor="#FFFF"
+        android:id="@+id/tv_hola"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="20dp"
+        android:layout_margin="30dp"
+        android:text="Este perfil se encuentra bajo construnccion. Proximamente disfruta del mejor contenido en esta Activity"
+        android:textColor="#FFFF"
+        android:id="@+id/tv_proximamente"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CERRAR SESION"
+        android:id="@+id/btn_cerrar"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:background="@drawable/bordes_rendondeados"
+        android:textColor="#0d0d0d"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        />
+
+
+</LinearLayout>
